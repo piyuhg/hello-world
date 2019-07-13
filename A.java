@@ -11,7 +11,7 @@ public class A {
 		long b[] = new long[m];	//diameter of balls
 		for(int i = 0;i<m;i++)
 			b[i] = s.nextLong();
-		int full[] = new int[n];	//hole status
+		int full[] = new int[n];	//hole status..full or not
 		for(int i = 0;i<m;i++) {
 			boolean ballNotSet = true;
 			for(int j = n-1;j>=0;j--) {
